@@ -1,0 +1,25 @@
+/* styles.css */
+
+.odd {
+    /*a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback */
+    background-color: pink;
+    font-family: Verdana,"DejaVu Sans", sans-serif;
+}
+
+.even#num_two {
+    /* blue text and a font size of 36px */
+    color: blue;
+    font-size: 36px;
+}
+
+.odd#paragraph_two {
+    /* in addition to the styles for all odd numbered elements, add a font size of 24px */
+    font-size: 24px;
+}
+
+.even#num_four {
+    /* a light green background, a font size of 24px, and bold */
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
